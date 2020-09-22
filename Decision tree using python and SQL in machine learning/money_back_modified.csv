@@ -1,0 +1,19 @@
+fault,"User type(golden,  normal)",Cancel time,payment method,Money back
+ufault,golden,withinlimit,online,yes
+cfault,normal,exceed,cash,yes
+nofault,normal,withinlimit,online,yes
+ufault,normal,withinlimit,online,no
+nofault,golden,withinlimit,cash,yes
+nofault,golden,withinlimit,online,yes
+ufault,normal,exceed,online,no
+nofault,normal,withinlimit,cash,yes
+ufault,golden,exceed,online,no
+cfault,normal,withinlimit,cash,yes
+nofault,normal,exceed,online,no
+nofault,golden,exceed,cash,yes
+ufault,normal,withinlimit,online,no
+cfault,normal,exceed,online,no
+nofault,golden,withinlimit,cash,yes
+cfault,normal,exceed,online,no
+nofault,golden,withinlimit,online,yes
+cfault,golden,exceed,cash,no
